@@ -1,0 +1,31 @@
+.home__social {
+    animation: emerge 4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 56%;
+    width: 50px;
+    right: 0;
+}
+
+.home__social__follow-me {
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    transform: rotate(90deg);
+    color: #a08787;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.home__social__icon {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}

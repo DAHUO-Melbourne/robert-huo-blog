@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import Homepage from './pages/homepage'
+import Programs from './pages/programs';
+import TopMenu from './components/menu';
+import { BrowserRouter, Route } from 'react-router-dom';
+import 'antd/dist/antd.css';
+
+export const Context = React.createContext();
 
 function App() {
+  const [currentLanguage, setCurrentLanguage] = useState('English');
+
+  const handleSwitch = language => {
+      setCurrentLanguage(language)
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <TopMenu currentLanguage={currentLanguage} handleSwitch={handleSwitch}/>
+        <Context.Provider value={currentLanguage}>
+          <Route path = '/' exact component={Homepage}/>
+          <Route path = '/programs' exact component={Programs}/>
+        </Context.Provider>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,0 +1,104 @@
+  
+{
+    "success": true,
+    "data":{
+        "programList":[{
+            "id":1,
+            "summary":{
+                "title":"JR Official Website",
+                "type":"Commercial Project",
+                "websiteURL":"https://jiangren.com.au/",
+                "year":2020
+            },
+            "content":{
+                "desc":"An official website for JR Academy.",
+                "imgUrl":"/static/media/screenshot-JR-official-site.png",
+                "role":"Full stack developer",
+                "tech":{
+                    "frontend":["HTML5", "CSS3", "Sass", "JavaScript(ES6 +)", "React", "Redux", "Redux-saga", "Pug", "Bootstrap"],
+                    "backend":["Node.js", "KeystoneJS", "RESTful API", "Swagger"],
+                    "database":["MongoDB"],
+                    "tooling":["Git", "NPM", "BitBucket", "JIRA", "Postman", "Zeplin"],
+                    "methodologies":["Agile/Scrum/Kanban", "CI/CD"]
+                }
+            }
+        },{
+            "id":2,
+            "summary":{
+                "title":"JR Dashboard",
+                "type":"Commercial Project",
+                "websiteURL":"https://learn.jiangren.com.au/",
+                "year":2020
+            },
+            "content":{
+                "desc":"An online application of JR Academy which provides learning management to its students, teacher and tutors.",
+                "imgUrl":"/static/media/screenshot-JR-dashedboard.png",
+                "role":"Full stack developer",
+                "tech":{
+                    "frontend":["HTML5", "CSS3", "Less", "JavaScript(ES6 +)", "React", "Redux", "Redux-saga", "UmiJs", "DvaJs", "Ant Design", "Zeplin"],
+                    "backend":["Node.js", "KeystoneJS", "RESTful API", "Swagger"],
+                    "database":["MongoDB"],
+                    "tooling":["Git", "NPM", "BitBucket", "JIRA", "Postman", "Zeplin"],
+                    "methodologies":["Agile/Scrum/Kanban", "CI/CD"]
+                }
+            }
+        },{
+            "id":3,
+            "summary":{
+                "title":"Da Huo Blog",
+                "type":"Personal Project",
+                "websiteURL":"/",
+                "year":2020
+            },
+            "content":{
+                "desc":"It is this responsive website we are on. Here is a place where I will share my portfolio and resume.",
+                "imgUrl":"/static/media/personal-blog.png",
+                "role":"Full stack developer",
+                "tech":{
+                    "frontend":["HTML5", "CSS3", "Less", "JavaScript(ES6 +)", "React", "Hooks", "Ant Design", "Zeplin"],
+                    "devops":["AWS(EC2, CodePipeline, CodeBuild, Elastic Beanstalk, Route 53)"],
+                    "tooling":["Git", "NPM", "Github"],
+                    "methodologies":["CI/CD"]
+                }
+            }
+        },{
+            "id":4,
+            "summary":{
+                "title":"Weather Query App",
+                "type":"Personal Project",
+                "websiteURL":"https://weather-inquire.netlify.app/",
+                "year":2019
+            },
+            "content":{
+                "desc":"A responsive weather forecast app, based on a free forecast data api provided by openweathermap. Weather Data is cached for at most 1 hour on the server.",
+                "imgUrl":"/static/media/weather_app.png",
+                "role":"Full stack developer",
+                "tech":{
+                    "frontend":["HTML5", "CSS3", "Less", "JavaScript(ES6 +)", "React", "Hooks", "Ant Design", "Zeplin"],
+                    "devops":["AWS(EC2, CodePipeline, CodeBuild, Elastic Beanstalk, Route 53)"],
+                    "tooling":["Git", "NPM", "Github"],
+                    "methodologies":["CI/CD"]
+                }
+            }
+        },{
+            "id":5,
+            "summary":{
+                "title":"Warhammer Blog",
+                "type":"Personal Project",
+                "websiteURL":"https://warhammer-community.netlify.app/details",
+                "year":2019
+            },
+            "content":{
+                "desc":"A responsive weather forecast app, based on a free forecast data api provided by openweathermap. Weather Data is cached for at most 1 hour on the server.",
+                "imgUrl":"/static/media/warhammer-blog.png",
+                "role":"Full stack developer",
+                "tech":{
+                    "frontend":["HTML5", "CSS3", "Less", "JavaScript(ES6 +)", "React", "React-Router", "Hooks", "Ant Design", "Zeplin"],
+                    "devops":["AWS(EC2, CodePipeline, CodeBuild, Elastic Beanstalk, Route 53)"],
+                    "tooling":["Git", "NPM", "Github"],
+                    "methodologies":["CI/CD"]
+                }
+            }
+        }]
+    }
+}

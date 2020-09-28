@@ -1,0 +1,121 @@
+body {
+    font-family: Roboto;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+}
+
+.commercial-project {
+    margin-top: 80px;
+    opacity: 1;
+    visibility: unset;
+    border: #ef652d 4px solid;
+    background: rgba(255, 255, 255, 0.9);
+    animation: emerge 0.8s;
+    position: relative;
+    border-radius: 3px;
+    width: 80%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-header {
+    flex-wrap: wrap;
+    padding: 20px 25px 5px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-header_name {
+    font-size: 35px;
+    font-weight: 900;
+    display: inline;
+    margin-right: 10px;
+    font-family: Roboto;
+    letter-spacing: 0.6px;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.project-type {
+    background-color: #f5d364;
+    transition: all 0.2s linear;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    border-radius: 3px;
+}
+
+.project_content {
+    padding: 20px 25px 25px 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project_img {
+    box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.15);
+    flex-grow: 3;
+    flex-basis: 300px;
+    flex-shrink: 0;
+    height: fit-content;
+    margin-right: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.project_img img {
+    width: 100%;
+    object-fit: cover;
+    transition: transform 1s;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.project_img img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.project__content__right {
+    padding: 0 1px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.project__description {
+    margin-bottom: 15px;
+}
+
+.project__description__title {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skill-set {
+    margin-bottom: 5px;
+    padding: 3px;
+    border-bottom: 3px solid rgba(226, 172, 23, 0.212);
+}
+
+.skill-set__name {
+    font-size: 14px;
+    display: inline;
+}
+
+.link_icon {
+    font-size: 25px;
+}
