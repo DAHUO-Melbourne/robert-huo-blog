@@ -21,7 +21,6 @@ function App() {
         <Context.Provider value={currentLanguage}>
           <Route path = '/' exact component={Homepage}/>
           <Route path = '/programs' exact component={Programs}/>
-          <Route path= '/resume' />
         </Context.Provider>
       </BrowserRouter>
     </div>
