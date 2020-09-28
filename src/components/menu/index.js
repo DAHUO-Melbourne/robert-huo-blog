@@ -34,7 +34,7 @@ export default function TopMenu(props) {
               <Link to="/programs">{language=='English'?'Portfolio':'项目'}</Link>
             </Menu.Item>
             <Menu.Item key="resume" icon={<FileDoneOutlined />}>
-              <a href={resume} target="_blank">{language=='English'?'Resume':'简历'}</a>
+              <a href={resume} rel='noopener noreferrer' target="_blank">{language=='English'?'Resume':'简历'}</a>
             </Menu.Item>
             <SubMenu key="SubMenu" icon={<GlobalOutlined />} selectedKeys={props.currentLanguage} onClick={handleSwitch} title="Language/语言">
                 <Menu.Item key="English">English</Menu.Item>
