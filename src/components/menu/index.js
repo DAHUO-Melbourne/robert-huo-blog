@@ -4,6 +4,7 @@ import 'antd/dist/antd.css';
 import { Menu } from 'antd';
 import { HomeOutlined, DesktopOutlined, FileDoneOutlined, GlobalOutlined } from '@ant-design/icons';
 import './index.css';
+import resume from '../../RobertHuoResume.pdf'
 
 export default function TopMenu(props) {
     const [current, setCurrent] = useState('home');
@@ -33,7 +34,7 @@ export default function TopMenu(props) {
               <Link to="/programs">{language=='English'?'Portfolio':'项目'}</Link>
             </Menu.Item>
             <Menu.Item key="resume" icon={<FileDoneOutlined />}>
-              <Link to="/static/document/RobertHuoResume.pdf" target="_blank">{language=='English'?'Resume':'简历'}</Link>
+              <Link to={resume} target="_blank">{language=='English'?'Resume':'简历'}</Link>
             </Menu.Item>
             <SubMenu key="SubMenu" icon={<GlobalOutlined />} selectedKeys={props.currentLanguage} onClick={handleSwitch} title="Language/语言">
                 <Menu.Item key="English">English</Menu.Item>
