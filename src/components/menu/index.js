@@ -8,10 +8,10 @@ import {
   FileDoneOutlined,
   GlobalOutlined,
 } from '@ant-design/icons';
-import './index.css';
+import './index.scss';
 import resume from '../../RobertHuoResume.pdf';
 
-export default function TopMenu(props) {
+export default function TopMenu (props) {
   const [current, setCurrent] = useState('home');
   const language = props.currentLanguage;
 

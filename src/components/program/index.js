@@ -1,8 +1,8 @@
 import React from 'react';
-import './index.css';
+import './index.scss';
 import { LinkOutlined } from '@ant-design/icons';
 
-function ProgramHeader(props) {
+function ProgramHeader (props) {
   return (
     <div className="project-header">
       <div>
@@ -17,7 +17,7 @@ function ProgramHeader(props) {
   );
 }
 
-function ProgramContent(props) {
+function ProgramContent (props) {
   return (
     <div className="project_content">
       <div className="project_img">
@@ -50,7 +50,7 @@ function ProgramContent(props) {
   );
 }
 
-export default function Program(props) {
+export default function Program (props) {
   return (
     <div className="commercial-project">
       <ProgramHeader content={props.program.summary} />
