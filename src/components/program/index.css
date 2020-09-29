@@ -22,6 +22,12 @@ body {
     flex-direction: column;
 }
 
+@media only screen and (max-width: 510px) {
+    .commercial-project{
+        width: 94%;
+    }
+}
+
 .project-header {
     flex-wrap: wrap;
     padding: 20px 25px 5px 25px;
@@ -60,6 +66,12 @@ body {
     padding: 20px 25px 25px 25px;
     display: flex;
     flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 510px) {
+    .project_content {
+        padding: 10px 15px 15px 15px;
+    }
 }
 
 .project_img {
