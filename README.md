@@ -69,3 +69,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### `commitlint` notes:
 https://www.codenong.com/js59531032af9d/
+
+### `eslint` notes"
+https://www.youtube.com/watch?v=lHAeK8t94as
