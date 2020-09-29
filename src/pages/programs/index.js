@@ -5,7 +5,7 @@ import SocialNetwork from '../../components/socialNetwork';
 import Program from '../../components/program';
 import './index.scss';
 
-export default function Programs () {
+export default function Programs() {
   const [programList, setProgramList] = useState([]);
   useEffect(() => {
     axios.get('/api/programs.json').then((res) => {

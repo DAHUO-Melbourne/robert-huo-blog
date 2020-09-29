@@ -7,7 +7,7 @@ import {
 import './index.scss';
 import { Context } from '../../App';
 
-export default function SocialNetwork () {
+export default function SocialNetwork() {
   const currentLanguage = useContext(Context);
   return (
     <div className="home__social">
