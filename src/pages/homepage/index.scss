@@ -2,6 +2,12 @@
     cursor: pointer;
 }
 
+.home {
+    animation: emerge 0.8s;
+    display: flex;
+    position: relative;
+}
+
 .wrapper {
     margin-right: 50px;
     flex-grow: 9;

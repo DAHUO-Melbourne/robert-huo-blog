@@ -7,7 +7,7 @@ import 'antd/dist/antd.css';
 import './index.scss';
 import { Context } from '../../App';
 
-function Portrait() {
+function Portrait () {
   return (
     <div className="portrait">
       <img
@@ -19,7 +19,7 @@ function Portrait() {
   );
 }
 
-function Introduction() {
+function Introduction () {
   const currentLanguage = useContext(Context);
   return (
     <div className="intro">
@@ -32,7 +32,7 @@ function Introduction() {
   );
 }
 
-function ContactMethod() {
+function ContactMethod () {
   const [email] = useState(' robertdahuo@gmail.com');
   const [number] = useState(' +61 450 950 778 ');
   const currentLanguage = useContext(Context);
@@ -71,7 +71,7 @@ function ContactMethod() {
   );
 }
 
-function Banner() {
+function Banner () {
   const currentLanguage = useContext(Context);
   return (
     <div className="home__banner">
@@ -86,16 +86,18 @@ function Banner() {
   );
 }
 
-export default function Homepage() {
+export default function Homepage () {
   return (
-    <div className="wrapper">
-      <div className="wrapper_up">
-        <Portrait />
-        <Introduction />
-      </div>
-      <div className="wrapper_bottom">
-        <ContactMethod />
-        <Banner />
+    <div className="home">
+      <div className="wrapper">
+        <div className="wrapper_up">
+          <Portrait />
+          <Introduction />
+        </div>
+        <div className="wrapper_bottom">
+          <ContactMethod />
+          <Banner />
+        </div>
       </div>
     </div>
   );
