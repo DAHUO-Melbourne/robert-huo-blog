@@ -34,14 +34,14 @@ export default function TopMenu(props) {
       className="menu"
     >
       <Menu.Item key="name">
-        <Link to="/">{language == 'English' ? 'Robert Huo' : '霍达'}</Link>
+        <Link to="/">{language === 'English' ? 'Robert Huo' : '霍达'}</Link>
       </Menu.Item>
       <Menu.Item key="home" icon={<HomeOutlined />}>
-        <Link to="/">{language == 'English' ? 'Homepage' : '首页'}</Link>
+        <Link to="/">{language === 'English' ? 'Homepage' : '首页'}</Link>
       </Menu.Item>
       <Menu.Item key="portfolio" icon={<DesktopOutlined />}>
         <Link to="/programs">
-          {language == 'English' ? 'Portfolio' : '项目'}
+          {language === 'English' ? 'Portfolio' : '项目'}
         </Link>
       </Menu.Item>
       <Menu.Item key="resume" icon={<FileDoneOutlined />}>
@@ -50,7 +50,7 @@ export default function TopMenu(props) {
           rel="noopener noreferrer"
           download
         >
-          {language == 'English' ? 'Resume' : '简历'}
+          {language === 'English' ? 'Resume' : '简历'}
         </a>
       </Menu.Item>
       <SubMenu
