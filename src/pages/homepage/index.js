@@ -33,7 +33,7 @@ function Introduction () {
 }
 
 function ContactMethod () {
-  const [email] = useState(' roberthuomelbourne@gmail.com');
+  const [email] = useState(' robertdahuo@gmail.com');
   const [number] = useState(' +61 450 950 778 ');
   const currentLanguage = useContext(Context);
   const copySuccess = () => {
