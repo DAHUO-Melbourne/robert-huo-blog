@@ -5,6 +5,48 @@
         {
           "id": 1,
           "summary": {
+            "title": "Pikcha",
+            "type": "Commercial Project",
+            "websiteURL": "https://www.pikcha.com/",
+            "year": 2021
+          },
+          "content": {
+            "desc": "Limited-edition prints by independent artists worldwide online trading platform",
+            "imgUrl": "/static/media/screenshot-pikcha-landing-page.png",
+            "role": "Front end developer",
+            "tech": {
+              "frontend": [
+                "React",
+                "Redux",
+                "Redux-thunk",
+                "Sass",
+                "Material-UI"
+              ],
+              "backend": [
+                "C#",
+                "RESTful API",
+                "Swagger"
+              ],
+              "database": [
+                "MySQL"
+              ],
+              "tooling": [
+                "Git",
+                "NPM",
+                "GitLab",
+                "JIRA",
+                "Postman"
+              ],
+              "methodologies": [
+                "Agile/Scrum",
+                "CI/CD"
+              ]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "summary": {
             "title": "JR Official Website",
             "type": "Commercial Project",
             "websiteURL": "https://jiangren.com.au/",
@@ -51,7 +93,7 @@
           }
         },
         {
-          "id": 2,
+          "id": 3,
           "summary": {
             "title": "JR Dashboard",
             "type": "Commercial Project",
@@ -101,7 +143,7 @@
           }
         },
         {
-          "id": 3,
+          "id": 4,
           "summary": {
             "title": "Da Huo Blog",
             "type": "Personal Project",
@@ -138,7 +180,7 @@
           }
         },
         {
-          "id": 4,
+          "id": 5,
           "summary": {
             "title": "Weather Query App",
             "type": "Personal Project",
@@ -187,7 +229,7 @@
           }
         },
         {
-          "id": 5,
+          "id": 6,
           "summary": {
             "title": "Warhammer Blog",
             "type": "Personal Project",

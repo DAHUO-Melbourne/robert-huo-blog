@@ -9,7 +9,6 @@ import {
   GlobalOutlined,
 } from '@ant-design/icons';
 import './index.scss';
-import resume from '../../RobertHuoResume.pdf';
 
 export default function TopMenu(props) {
   const [current, setCurrent] = useState('home');
@@ -29,7 +28,6 @@ export default function TopMenu(props) {
     <Menu
       onClick={handleClick}
       selectedKeys={current}
-      onClick={handleClick}
       mode="horizontal"
       className="menu"
     >
