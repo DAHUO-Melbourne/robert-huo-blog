@@ -5,6 +5,50 @@
         {
           "id": 1,
           "summary": {
+            "title": "Seminal Admin Portal",
+            "type": "Commercial Project",
+            "websiteURL": "https://www.records.develop.seminal.one/",
+            "year": 2023
+          },
+          "content": {
+            "desc": "The admin portal of the seminal platform",
+            "imgUrl": "/static/media/screenshot-records-portal-landing-page.png",
+            "role": "Lead Front end engineer && scrum master",
+            "tech": {
+              "frontend": [
+                "NextJS",
+                "Jest",
+                "React-Testing-Library",
+                "React",
+                "tailwind",
+                "auth-0"
+              ],
+              "backend": [
+                "C#",
+                "RESTful API",
+                "Swagger"
+              ],
+              "database": [
+                "MySQL"
+              ],
+              "tooling": [
+                "Git",
+                "NPM",
+                "AWS",
+                "Azure",
+                "JIRA",
+                "Postman"
+              ],
+              "methodologies": [
+                "Agile/Scrum",
+                "CI/CD"
+              ]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "summary": {
             "title": "Seminal",
             "type": "Commercial Project",
             "websiteURL": "https://www.develop.seminal.one/",
@@ -47,7 +91,7 @@
           }
         },
         {
-          "id": 2,
+          "id": 3,
           "summary": {
             "title": "Pikcha",
             "type": "Commercial Project",
@@ -89,7 +133,7 @@
           }
         },
         {
-          "id": 3,
+          "id": 4,
           "summary": {
             "title": "JR Official Website",
             "type": "Commercial Project",
@@ -137,7 +181,7 @@
           }
         },
         {
-          "id": 4,
+          "id": 5,
           "summary": {
             "title": "JR Dashboard",
             "type": "Commercial Project",
@@ -187,7 +231,7 @@
           }
         },
         {
-          "id": 5,
+          "id": 6,
           "summary": {
             "title": "Da Huo Blog",
             "type": "Personal Project",
@@ -224,7 +268,7 @@
           }
         },
         {
-          "id": 6,
+          "id": 7,
           "summary": {
             "title": "Weather Query App",
             "type": "Personal Project",
@@ -273,7 +317,7 @@
           }
         },
         {
-          "id": 7,
+          "id": 8,
           "summary": {
             "title": "Warhammer Blog",
             "type": "Personal Project",
