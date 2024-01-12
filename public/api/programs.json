@@ -5,6 +5,50 @@
         {
           "id": 1,
           "summary": {
+            "title": "Seminal",
+            "type": "Commercial Project",
+            "websiteURL": "https://www.develop.seminal.one/",
+            "year": 2022
+          },
+          "content": {
+            "desc": "The world’s first global copyright register and IP marketplace",
+            "imgUrl": "/static/media/screenshot-seminal-landing-page.png",
+            "role": "Lead Front end engineer",
+            "tech": {
+              "frontend": [
+                "React",
+                "Redux",
+                "Redux-saga",
+                "baseui",
+                "auth-0",
+                "solidity"
+              ],
+              "backend": [
+                "C#",
+                "RESTful API",
+                "Swagger"
+              ],
+              "database": [
+                "MySQL"
+              ],
+              "tooling": [
+                "Git",
+                "NPM",
+                "AWS",
+                "Azure",
+                "JIRA",
+                "Postman"
+              ],
+              "methodologies": [
+                "Agile/Scrum",
+                "CI/CD"
+              ]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "summary": {
             "title": "Pikcha",
             "type": "Commercial Project",
             "websiteURL": "https://www.pikcha.com/",
@@ -45,7 +89,7 @@
           }
         },
         {
-          "id": 2,
+          "id": 3,
           "summary": {
             "title": "JR Official Website",
             "type": "Commercial Project",
@@ -93,7 +137,7 @@
           }
         },
         {
-          "id": 3,
+          "id": 4,
           "summary": {
             "title": "JR Dashboard",
             "type": "Commercial Project",
@@ -143,7 +187,7 @@
           }
         },
         {
-          "id": 4,
+          "id": 5,
           "summary": {
             "title": "Da Huo Blog",
             "type": "Personal Project",
@@ -180,7 +224,7 @@
           }
         },
         {
-          "id": 5,
+          "id": 6,
           "summary": {
             "title": "Weather Query App",
             "type": "Personal Project",
@@ -229,7 +273,7 @@
           }
         },
         {
-          "id": 6,
+          "id": 7,
           "summary": {
             "title": "Warhammer Blog",
             "type": "Personal Project",
