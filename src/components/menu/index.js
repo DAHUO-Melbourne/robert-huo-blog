@@ -9,10 +9,12 @@ import {
   GlobalOutlined,
 } from '@ant-design/icons';
 import './index.scss';
+import { useIsMobile } from '../../utils/responsiveness';
 
 export default function TopMenu(props) {
   const [current, setCurrent] = useState('home');
   const language = props.currentLanguage;
+  const isOnMobile = useIsMobile();
 
   const handleClick = (e) => {
     setCurrent(e.key);
@@ -31,13 +33,15 @@ export default function TopMenu(props) {
       mode="horizontal"
       className="menu"
     >
-      <Menu.Item key="name">
-        <Link to="/">{language === 'English' ? 'Robert Huo' : '霍达'}</Link>
-      </Menu.Item>
-      <Menu.Item key="home" icon={<HomeOutlined />}>
+      {!isOnMobile && (
+        <Menu.Item key="name">
+          <Link to="/">{language === 'English' ? 'Robert Da Huo' : '霍达'}</Link>
+        </Menu.Item>
+      )}
+      <Menu.Item key="home" style={{width: isOnMobile && '42.5%'}}>
         <Link to="/">{language === 'English' ? 'Homepage' : '首页'}</Link>
       </Menu.Item>
-      <Menu.Item key="portfolio" icon={<DesktopOutlined />}>
+      <Menu.Item key="portfolio" icon={<DesktopOutlined />} style={{width: isOnMobile && '42.5%'}}>
         <Link to="/programs">
           {language === 'English' ? 'Portfolio' : '项目'}
         </Link>
