@@ -3,6 +3,11 @@ import { Context } from '../../App';
 import { message } from 'antd';
 import { CopyOutlined } from '@ant-design/icons';
 import Clipboard from 'react-clipboard.js';
+import {
+  LinkedinOutlined,
+  GithubOutlined,
+  InstagramOutlined,
+} from '@ant-design/icons';
 
 const MobilePage = () => {
   const currentLanguage = useContext(Context);
@@ -80,6 +85,42 @@ const MobilePage = () => {
               : '我写优质的网站，我擅长MERN技术，我发现问题也解决问题'}
           </span>
         </marquee>
+      </div>
+      <div
+        style={{
+          position: 'fixed',
+          bottom: 0,
+          margin: 'auto',
+          left: 0,
+          right: 0,
+          display: 'flex',
+          justifyContent: 'center'
+        }}
+      >
+        <a
+          className="home__social__icon_horizon"
+          href="https://www.linkedin.com/in/robert-da-huo/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <LinkedinOutlined />
+        </a>
+        <a
+          className="home__social__icon_horizon"
+          href="https://github.com/DAHUO-Melbourne"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GithubOutlined />
+        </a>
+        <a
+          className="home__social__icon_horizon"
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <InstagramOutlined />
+        </a>
       </div>
     </div>
   )
