@@ -6,6 +6,8 @@ import SocialNetwork from '../../components/socialNetwork';
 import 'antd/dist/antd.css';
 import './index.scss';
 import { Context } from '../../App';
+import { useIsDesktop, useIsMobile } from '../../utils/responsiveness';
+import MobilePage from './MobilePage';
 
 function Portrait () {
   return (
@@ -87,18 +89,28 @@ function Banner () {
 }
 
 export default function Homepage () {
+  const isOnDesktop = useIsDesktop();
+  const isOnMobile = useIsMobile();
+
   return (
-    <div className="home">
-      <div className="wrapper">
-        <div className="wrapper_up">
-          <Portrait />
-          <Introduction />
+    <>
+      {isOnDesktop && (
+        <div className="home">
+          <div className="wrapper">
+            <div className="wrapper_up">
+              <Portrait />
+              <Introduction />
+            </div>
+            <div className="wrapper_bottom">
+              <ContactMethod />
+              <Banner />
+            </div>
+          </div>
         </div>
-        <div className="wrapper_bottom">
-          <ContactMethod />
-          <Banner />
-        </div>
-      </div>
-    </div>
+      )}
+      {isOnMobile && (
+        <MobilePage />
+      )}
+    </>
   );
 }
